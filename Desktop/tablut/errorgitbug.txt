@@ -1,0 +1,123 @@
+GITBUG ERROR REPORT
+
+1. Type of operating system you are using to produce this error:
+
+
+Mac OSx
+
+
+2. Version of the Java system you are using (java -version).
+
+
+Java 8
+
+
+3. Subdirectory of your Git working directory to use as the current
+   directory when compiling and running your program.
+
+repo/proj2
+
+
+4. EXACT sequence of commands that will cause the error you are seeing,
+   including anything needed to compile and execute the program.
+   It is NOT acceptable to say "any execution of the program fails"; give
+   us a specific one.
+
+from my command line:
+
+    > auto white
+    > auto black
+
+
+5. What you see when you execute the commands in 4.
+
+    When I run the commands above, the AI players play about 10ish move and then start playing the same series of moves over and over again,
+    but the game should be ending at that point. I have run all these move commands manually and they say that black wins at a certain point.
+    My AI does not recognize black winning. I have tested checkRepeated so I believe it is correct. Here is the output:
+
+    * i6-f
+    * g5-1
+    * i5-9
+    * g1-i
+    * i9-g
+    * i1-g
+    * i4-f
+    * g1-i
+    * h5-f
+    * i1-g
+    * g9-2
+    * g1-i
+    * g2-f
+    * i1-g
+    * f9-7
+    * g1-i
+    * f7-i
+    * i1-g
+    * i7-f
+    * g1-i
+    * f7-i
+    * i1-g
+    * i7-f
+    * g1-i
+    * f7-i
+    * i1-g
+    * i7-f
+    * g1-i
+    * f7-i
+    * i1-g
+    * i7-f
+    * g1-i
+    * f7-i
+    * i1-g
+    * i7-f
+    * g1-i
+    * f7-i
+    * i1-g
+    * i7-f
+    * g1-i
+    * f7-i
+    * i1-g
+    * i7-f
+    * g1-i
+    * f7-i
+    * i1-g
+    * i7-f
+    * g1-i
+    * f7-i
+    * i1-g
+    * i7-f
+    * g1-i
+    * f7-i
+    * i1-g
+    * i7-f
+    * g1-i
+    * f7-i
+    * i1-g
+    * i7-f
+    * g1-i
+    * f7-i
+    * i1-g
+    * i7-f
+    * g1-i
+    * f7-i
+    * i1-g
+    * i7-f
+    * g1-i
+    * f7-i
+    * i1-g
+    * i7-f
+    * g1-i
+    * f7-i
+    * i1-g
+    * i7-f
+    * g1-i
+    * f7-i
+    * i1-g
+    * i7-f
+    * g1-i
+    * f7-i
+    * i1-g
+    * i7-f
+    * g1-i
+    * f7-i
+    * i1-g
